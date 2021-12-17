@@ -1,0 +1,15 @@
+.place {
+  display: grid;
+  grid-template-columns: 460px 1fr;
+  grid-template-rows: repeat(2, max-content);
+  row-gap: 48px;
+  column-gap: 40px;
+  grid-template-areas:
+  "title link"
+  "picture text";
+  padding-bottom: 80px;
+}
+
+.place:last-child {
+  padding: 0;
+}
