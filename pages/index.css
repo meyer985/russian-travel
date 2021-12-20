@@ -24,3 +24,9 @@
 @import url(../blocks/place/__website/place__website.css);
 @import url(../blocks/place/__website/_url-heading/place__website_url-heading.css);
 @import url(../blocks/place/__website/_url-link/place__website_url-link.css);
+@import url(../blocks/cover/cover.css);
+@import url(../blocks/cover/__background/cover__background.css);
+@import url(../blocks/cover/__overlay/cover__overlay.css);
+@import url(../blocks/cover/__subtitle/cover__subtitle.css);
+@import url(../blocks/cover/__title/cover__title.css);
+
