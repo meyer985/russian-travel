@@ -4,9 +4,27 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-image: url(../../../images/cover__background.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  min-height: 740px;
   position: relative;
+  background-image: url(../../../images/cover__background.jpg);
+  background-size: cover;
+  background-position: center;
+  min-height: 740px;
+}
+
+@media screen and (max-width: 1170px) {
+  .cover__background {
+    min-height: 640px;
+  }
+}
+
+@media screen and (max-width: 930px) {
+  .cover__background {
+    min-height: 480px;
+    }
+}
+
+@media screen and (max-width: 670px) {
+  .cover__background {
+    min-height: 200px;
+  }
 }

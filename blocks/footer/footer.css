@@ -5,3 +5,15 @@
   justify-content: space-between;
   padding-bottom: 24px;
 }
+
+@media screen and (max-width: 930px) {
+  .footer {
+   max-width: calc(100% - 24px);
+  }
+}
+@media screen and (max-width: 670px) {
+  .footer {
+   max-width: calc(100% - 32px);
+   flex-direction: column;
+  }
+}
