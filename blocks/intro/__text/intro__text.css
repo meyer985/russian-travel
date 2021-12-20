@@ -5,3 +5,9 @@
   font-weight: 400;
   margin: 40px 0 33px;
 }
+
+@media screen and (max-width: 670px) {
+  .intro__text {
+    margin: 40px 0 34px;
+  }
+}
