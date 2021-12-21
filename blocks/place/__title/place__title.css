@@ -4,6 +4,7 @@
   line-height: 1.05;
   font-weight: 900;
   grid-area: title;
+  text-rendering: optimizeLegibility;
 }
 
 @media screen and (max-width: 930px) {
