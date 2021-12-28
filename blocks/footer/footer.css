@@ -8,13 +8,13 @@
 
 @media screen and (max-width: 930px) {
   .footer {
-   max-width: calc(100% - 24px);
+    max-width: calc(100% - 48px);
   }
 }
 
-@media screen and (max-width: 670px) {
+@media screen and (max-width: 760px) {
   .footer {
-   max-width: calc(100% - 32px);
-   flex-direction: column;
+    max-width: calc(100% - 32px);
+    flex-direction: column;
   }
 }
